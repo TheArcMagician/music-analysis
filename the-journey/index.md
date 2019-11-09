@@ -1,6 +1,8 @@
-----
+---
+---
+
 The Journey
-----
+=====
 
 
 Some text here to describe the overall goal of this exploration.

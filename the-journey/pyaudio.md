@@ -1,8 +1,8 @@
 ---
-sssssss
+
 ---
 
-Pyaudio
+PyAudio
 =====
 
 I began researching for a library that would enable input from a microphone as well as sound files. What I found was this: [PyAudio](https://people.csail.mit.edu/hubert/pyaudio/). It implements a library for python that allows playing and recording of audio on many platforms.

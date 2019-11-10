@@ -7,8 +7,9 @@ PyAudio
 
 I began researching for a library that would enable input from a microphone as well as sound files. What I found was this: [PyAudio](https://people.csail.mit.edu/hubert/pyaudio/). It implements a library for python that allows playing and recording of audio on many platforms.
 
-I first used the provided examples for recording and playing a wav file.
+I first used the provided examples for recording and playing a WAVE file.
 
+Here is their example for playing a WAVE file:
 
 ```python
 """PyAudio Example: Play a WAVE file."""
@@ -43,3 +44,4 @@ stream.close()
 
 p.terminate()'
 ```
+Other examples can be found in the above link to PyAudio.

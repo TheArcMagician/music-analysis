@@ -46,4 +46,4 @@ p.terminate()'
 ```
 Other examples can be found in the above link to PyAudio.
 
-Next step in the journy [here](plottimesignal.md)
+Next step in the journy [here.](plottimesignal.md)

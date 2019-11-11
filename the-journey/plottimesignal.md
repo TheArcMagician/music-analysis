@@ -2,7 +2,7 @@
 
 ---
 
-Plotting the Time Signal
+Plotting The Time Signal
 =====
 
 details here.

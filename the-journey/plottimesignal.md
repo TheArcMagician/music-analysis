@@ -13,4 +13,4 @@ details here.
 
 
 
-Next step in the journey [here](displayonterminal.md)
+Next step in the journey [here.](displayonterminal.md)

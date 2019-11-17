@@ -6,8 +6,8 @@ Plotting The Time Signal
 =====
 
 After becoming aquainted with the PyAudio library, I tried to create a plot of the time signal from a .wav file. I started with the example from PyAudio to play a .wav file and had to modify to do the following:
-* Create numpy array to store the time signal data
-* Transform the audio data from 2's complement to integers
+* Create [numpy array](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html) to store the time signal data
+* Transform the audio data from [2's complement](https://en.wikipedia.org/wiki/Two%27s_complement) to integers
 * Use matplotlib to plot the time signal data
 
 Here is the code:
@@ -32,6 +32,8 @@ CHUNK = 1 #number of chunks to load from file at a time
 time_series = np.zeros(N)
 time = np.linspace(0.0, N/RATE, N)
 
+
+# following is from https://stackoverflow.com/questions/1604464/twos-complement-in-python
 def twos_comp(val, bits):
     """compute the 2's complement of int value val"""
     if (val & (1 << (bits - 1))) != 0: # if sign bit is set e.g., 8bit: 128-255

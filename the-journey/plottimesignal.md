@@ -76,6 +76,7 @@ plt.ylabel('audio signal')
 plt.show()
 ```
 Here is the resulting plot:
+![Time Sig](images/timesig.png)
 
 
 

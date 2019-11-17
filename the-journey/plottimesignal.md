@@ -5,7 +5,8 @@
 Plotting The Time Signal
 =====
 
-details here.
+After becoming aquainted with the PyAudio library, I endevoured to create a plot of the time signal from a .wav file.
+
 
 
 

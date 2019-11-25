@@ -45,7 +45,7 @@ stream.close()
 p.terminate()
 ```
 Here is a screenshot showing the terminal
-![Terminal Disp](https://github.com/TheArcMagician/music-analysis/blob/master/the-journey/images/termdisp.png)
+![Terminal Disp](https://raw.githubusercontent.com/TheArcMagician/music-analysis/master/the-journey/images/termdisp.png)
 
 
 Next step in the journey [here.](freqdomain.md)

@@ -5,7 +5,16 @@
 Displaying The Signal In A Terminal
 =====
 
+Just for fun, I wanted to see a real time visual of the audio signal from the microphone. The following code is modified from the wire.py provided as an example by PyAudio. In order to show the audio values, I scaled it down by a factor of ten and used the [ansi color standard for terminals.](https://bixense.com/clicolors/)\
+
+Below is the code:
 ```python
+"""
+Terminal Display: show the time series from microphone in the terminal
+
+"""
+
+import pyaudio
 import numpy as np
 import math
 

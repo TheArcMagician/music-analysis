@@ -2,7 +2,7 @@
 
 ---
 
-Plotting The Time Signal
+Plotting the Time Signal
 =====
 
 After becoming aquainted with the PyAudio library, I tried to create a plot of the time signal from a .wav file. I started with the example from PyAudio to play a .wav file and had to modify to do the following:

@@ -56,7 +56,12 @@ plt.ylabel('Amplitude')
 plt.show()
 ```
 
+Here is a plot of the time signal 
+![Terminal Disp](https://raw.githubusercontent.com/TheArcMagician/music-analysis/master/the-journey/images/termdisp.png)
 
+
+And here is the corresponding FFT plot 
+![Terminal Disp](https://raw.githubusercontent.com/TheArcMagician/music-analysis/master/the-journey/images/termdisp.png)
 
 
 

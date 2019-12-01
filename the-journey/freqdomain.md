@@ -5,8 +5,9 @@
 The Frequency Domain
 =====
 
-https://alphabold.com/fourier-transform-in-python-vibration-analysis/
+Before continuing further with audio processing, I wanted to explore ways to transform a time series into the frequency domain. The most common way to do this is by using the [Fast Fourier Transform (FFT).](https://en.wikipedia.org/wiki/Fast_Fourier_transform) I found a tutorial and python code [here](https://alphabold.com/fourier-transform-in-python-vibration-analysis/). It takes an arbitrary time signal consisting of two sinusoidal components and computes their FFT and presents both plots.
 
+Below is the code presented with some minor modifications:
 
 ```python
 """
@@ -57,11 +58,11 @@ plt.show()
 ```
 
 Here is a plot of the time signal 
-![Terminal Disp](https://raw.githubusercontent.com/TheArcMagician/music-analysis/master/the-journey/images/termdisp.png)
+![timeplot](https://raw.githubusercontent.com/TheArcMagician/music-analysis/master/the-journey/images/timeplot.png)
 
 
 And here is the corresponding FFT plot 
-![Terminal Disp](https://raw.githubusercontent.com/TheArcMagician/music-analysis/master/the-journey/images/termdisp.png)
+![fftplot](https://raw.githubusercontent.com/TheArcMagician/music-analysis/master/the-journey/images/fftplot.png)
 
 
 

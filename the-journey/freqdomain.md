@@ -57,13 +57,14 @@ plt.ylabel('Amplitude')
 plt.show()
 ```
 
-Here is a plot of the time signal 
+Here is a plot of the time signal: 
 ![timeplot](https://raw.githubusercontent.com/TheArcMagician/music-analysis/master/the-journey/images/timeplot.png)
 
 
-And here is the corresponding FFT plot 
+And here is the corresponding FFT plot: 
 ![fftplot](https://raw.githubusercontent.com/TheArcMagician/music-analysis/master/the-journey/images/fftplot.png)
 
+Notice that this plot shows two distinct spikes, one at 100 Hz and another at 340 Hz. These directly correspond with the two waveforms I defined in the code.
 
 
 Next step in the journey [here.](audiofft.md)

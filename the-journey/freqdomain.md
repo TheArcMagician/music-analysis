@@ -58,6 +58,7 @@ plt.show()
 ```
 
 Here is a plot of the time signal: 
+
 ![timeplot](https://raw.githubusercontent.com/TheArcMagician/music-analysis/master/the-journey/images/timeplot.png)
 
 

@@ -7,7 +7,7 @@ FFT of Audio Signal
 
 Details.
 
-python```
+```python
 """
 Wirefile: record audio and keep saving samples to a file.
 """

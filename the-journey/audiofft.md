@@ -106,6 +106,7 @@ while True:
    plt.pause(0.01)
    plt.clf()
 ```
+Here is the result:
 
 ![gif](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/fftanimation.gif)
 

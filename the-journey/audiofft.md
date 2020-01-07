@@ -6,7 +6,7 @@ FFT of Audio Signal
 =====
 
 Details.
-
+![audiofftdiagram](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/audiofftdiagram.png)
 ```python
 """
 Wirefile: record audio and keep saving samples to a file.

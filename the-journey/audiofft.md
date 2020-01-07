@@ -101,6 +101,6 @@ while True:
    plt.pause(0.01)
    plt.clf()
 ```
-
+![gif](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/fftanimation.gif)
 Next step in the journey [here.](peakfreq.md)
 

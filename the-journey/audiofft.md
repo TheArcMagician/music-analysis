@@ -5,11 +5,15 @@
 FFT of Audio Signal
 =====
 
-Details.
+So now, I can apply what I had previously explored with FFT to a live microphone stream. This uses a modified version of the provided PyAudio example for a wire which simply puts on the speaker what was being inputed to the microphone. The following block diagram shows how I set this up.
+
 ![audiofftdiagram](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/audiofftdiagram.png)
+
+The feed from the microphone goes into wirefile.py which then writes it (8192 samples at a time) to an intermediate file called audio.npy, which stores the audio as a numpy array. Then I have a program called fftanimate.py which takes the array, performs an FFT on it and plots it continuously. Below is the code for the two programs followed by an example of the resulting continuous plot.
+
 ```python
 """
-Wirefile: record audio and keep saving samples to a file.
+wirefile: record audio and keep saving samples to a file.
 """
 
 import pyaudio
@@ -60,6 +64,7 @@ p.terminate()
 
 ```
 
+
 ```python
 """
 fftanimate: continuously reads audio from a numpy vector in a file and displays its fft as an animation.
@@ -101,6 +106,8 @@ while True:
    plt.pause(0.01)
    plt.clf()
 ```
+
 ![gif](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/fftanimation.gif)
+
 Next step in the journey [here.](peakfreq.md)
 

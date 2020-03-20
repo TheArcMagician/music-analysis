@@ -11,21 +11,25 @@ Harmonics are essentially whole number multiples of a given frequency, if we had
 
 | Piano Key     | Correct Frequency | HPS Output |
 | ----------- | ----------- | ----------- |
-| C4      | 262   | |
-| D4 | 294 |
-| E4 | 330 | 
-| F4 | 349 | 
-| G4 | 392 | 
-| A4 | 440 | 
-| B4 | 494 | 
-| C5 | 523 | |
-| D5 | 587 |
-| E5 | 659 | 
-| F5 | 698 | 
-| G5 | 784 | 
-| A5 | 880 | 
-| B5 | 987 | 
-| C6 | 1108 | |
+| C4      | 262   |258* |
+| D4 | 294 |290*|
+| E4 | 330 | 333*|
+| F4 | 349 | 344*|
+| G4 | 392 | 387, 398*|
+| A4 | 440 | 441|
+| B4 | 494 | 495|
+| C5 | 523 | 528|
+| D5 | 587 | 592|
+| E5 | 659 | 333, 656*|
+| F5 | 698 | 699|
+| G5 | 784 | 785|
+| A5 | 880 | 883|
+| B5 | 987 | 495|
+| C6 | 1046 | 528, 1055*|
+The above table shows two octaves that were tested with a piano keyboard using HPS. The entries marked with an asterisk showed a lot of random variations from the indicated number in the table. Some entries reflect that there were multiple commonly outputted frequencies. We can see in E5, B5, and C6 that the HPS output frequency is sometimes one octave below the correct frequency. The reason that there is slight differences between many of the correct and outputted frequencies is because of the limited resolution in the code.
+
+So, HPS clearly is an improvement over peak frequency detection. However, there are still instances where the results are questionable in its current state.
+
 
 
 Next step in the journey [here.](dictionary.md)

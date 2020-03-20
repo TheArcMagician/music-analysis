@@ -26,6 +26,7 @@ Harmonics are essentially whole number multiples of a given frequency, if we had
 | A5 | 880 | 883|
 | B5 | 987 | 495|
 | C6 | 1046 | 528, 1055*|
+
 The above table shows two octaves that were tested with a piano keyboard using HPS. The entries marked with an asterisk showed a lot of random variations from the indicated number in the table. Some entries reflect that there were multiple commonly outputted frequencies. We can see in E5, B5, and C6 that the HPS output frequency is sometimes one octave below the correct frequency. The reason that there is slight differences between many of the correct and outputted frequencies is because of the limited resolution in the code.
 
 So, HPS clearly is an improvement over peak frequency detection. However, there are still instances where the results are questionable in its current state.

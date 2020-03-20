@@ -31,6 +31,6 @@ The above table shows two octaves that were tested with a piano keyboard using H
 
 So, HPS clearly is an improvement over peak frequency detection. However, there are still instances where the results are questionable in its current state.
 
-
+hps.py / hpsfreq.py
 
 Next step in the journey [here.](dictionary.md)

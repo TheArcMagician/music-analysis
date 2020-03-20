@@ -9,7 +9,7 @@ As I was looking for alternatives to peak frequency based detection, I came acro
 Harmonics are essentially whole number multiples of a given frequency, if we had a pitch at 100Hz, its harmonics would be at 200Hz, 300Hz and so forth. This scheme takes the magnitudes of the FFTs at these frequencies and multiplies them together. It will then return us the frequency that results in the highest product. 
 
 
-| Piano Key     | Correct Frequency | HPS Output |
+| Piano Key     | Correct Frequency (Hz)| HPS Output (Hz)|
 | ----------- | ----------- | ----------- |
 | C4      | 262   |258* |
 | D4 | 294 |290*|

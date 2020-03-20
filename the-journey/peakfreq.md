@@ -19,7 +19,7 @@ So, with this I thought it was working perfectly.
 
 That is until I tested this program on a piano keyboard from garageband on my phone, which produced the following:
 ![piano key](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/bflat.png)
-This was supposed to show the frequency of the B flat above middle C (which is 466Hz). But unfortunately as the FFT plot shows, the harmonics of the keyboard interfered with this 'peak frequency' method.
+This was supposed to show the frequency of the B flat above middle C (which is 466Hz). But unfortunately as the FFT plot shows, the harmonics of the keyboard interfered with this 'peak frequency' method. In particular, the peak frequency appears closer to 2800Hz.
 
 
 Next step in the journey [here.](hps.md)

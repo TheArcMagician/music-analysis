@@ -6,7 +6,13 @@ Note Frequency Detection Using HPS
 =====
 As I was looking for alternatives to peak frequency based detection, I came across a paper titled ["Efficient Pitch Detection Techniques for Interactive Music"](https://ccrma.stanford.edu/~pdelac/research/MyPublishedPapers/icmc_2001-pitch_best.pdf) by de la Cuadra and others. This paper describes a technique called Harmonic Product Spectrum (HPS).
 
-Harmonics are essentially whole number multiples of a given frequency, if we had a pitch at 100Hz, its harmonics would be at 200Hz, 300Hz and so forth. This scheme takes the magnitudes of the FFTs at these frequencies and multiplies them together. It will then return us the frequency that results in the highest product. 
+Harmonics are essentially whole number multiples of a given frequency, if we had a pitch at 100Hz, its harmonics would be at 200Hz, 300Hz and so forth. This scheme takes the magnitudes of the FFTs at these frequencies and multiplies them together. It will then return us the frequency that results in the highest product.
+
+I found sample code for implementing HPS [here](https://www.audiocontentanalysis.org/code/pitch-tracking/hps-2/). This code provides a function that takes as an input a spectrogram of the signal along with its sampling frequency. A spectrogram is a collection of FFTs over time. In Python it can be obtained from the [scipy signal processing library](https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.spectrogram.html#scipy.signal.spectrogram).
+
+So, I created [hpsfreq.py](https://github.com/shri-k/music-analysis/blob/master/src/hpsfreq.py) which takes the time series from the file that [wirefile.py](https://github.com/shri-k/music-analysis/blob/master/src/wirefile.py) writes to, and calls the HPS function in [hps.py](https://github.com/shri-k/music-analysis/blob/master/src/hps.py) to find the frequency with the highest harmonic product. It also plots a real time view of the spectrogram.
+
+Using this program, I collected the following data using a keyboard on Garageband:
 
 
 | Piano Key     | Correct Frequency (Hz)| HPS Output (Hz)|

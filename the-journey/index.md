@@ -16,4 +16,5 @@ Here will be a table of contents to each blog entry
 5. [FFT of audio signal](audiofft.md)
 5. [Note frequency detection using peak frequency](peakfreq.md)
 6. [Note frequency detection using HPS](hps.md)
-7. [Note pitch detection using a dictionary](dictionary.md)
+7. [Getting note samples from MusicNet](musicnet.md) 
+8. [Neural network for note classification](nnclassification.md)

@@ -12,7 +12,7 @@ I found sample code for implementing HPS [here](https://www.audiocontentanalysis
 
 So, I created [hpsfreq.py](https://github.com/shri-k/music-analysis/blob/master/src/hpsfreq.py) which takes the time series from the file that [wirefile.py](https://github.com/shri-k/music-analysis/blob/master/src/wirefile.py) writes to, and calls the HPS function in [hps.py](https://github.com/shri-k/music-analysis/blob/master/src/hps.py) to find the frequency with the highest harmonic product. It also plots a real time view of the spectrogram.
 
-Using this program, I collected the following data using a keyboard on Garageband:
+Using this program, I collected the following data using a keyboard on GarageBand:
 
 
 | Piano Key     | Correct Frequency (Hz)| HPS Output (Hz)|
@@ -34,6 +34,10 @@ Using this program, I collected the following data using a keyboard on Garageban
 | C6 | 1046 | 528, 1055*|
 
 The above table shows two octaves that were tested with a piano keyboard using HPS. The entries marked with an asterisk showed a lot of random variations from the indicated number in the table. Some entries reflect that there were multiple commonly outputted frequencies. We can see in E5, B5, and C6 that the HPS output frequency is sometimes one octave below the correct frequency. The reason that there is slight differences between many of the correct and outputted frequencies is because of the limited resolution in the code.
+
+To take this one step further, I created a dictionary mapping these frequencies to their corresponding letter notes and printed them. The updated file is [hpsdict.py](https://github.com/shri-k/music-analysis/blob/master/src/hpsdict.py).
+
+Testing it using the keyboard in GarageBand, it was only able to somewhat identify the right letter notes (regardless of true frequency) around one octave.
 
 So, HPS clearly is an improvement over peak frequency detection. However, there are still instances where the results are questionable in its current state.
 

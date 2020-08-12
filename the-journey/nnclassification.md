@@ -48,7 +48,7 @@ scores = model.evaluate(Xtest, Ytest)
 print("the test results are:")
 print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
 ```
-I compared the results classifying different pairs of notes at varying distances apart, and the following figure shows how it affects accuracy. ![figure](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/noteclassificationresults1.png)
+I compared the results classifying different pairs of notes at varying distances apart, and the following figure shows how it affects accuracy. ![figure](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/noteclassificationresults1.png) As the figure shows, the average accuracy was above 93 percent in all cases, and generally improves as the notes are farther apart. The noticeable dip in accuracy at a distance of 12 seems to be because that corresponds to an octave (so they are the same note, but different pitches).
 
 
 Next step in the journey [here.]()

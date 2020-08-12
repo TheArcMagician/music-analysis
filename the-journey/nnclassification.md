@@ -48,7 +48,7 @@ scores = model.evaluate(Xtest, Ytest)
 print("the test results are:")
 print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
 ```
-
+I compared the results classifying different pairs of notes at varying distances apart, and the following figure shows how it affects accuracy. ![figure](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/noteclassificationresults1.png)
 
 
 Next step in the journey [here.]()

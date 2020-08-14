@@ -54,4 +54,4 @@ I compared the results classifying different pairs of notes at varying distances
 As the figure shows, the average accuracy was above 93 percent in all cases, and generally improves as the notes are farther apart. The noticeable dip in accuracy at a distance of 12 seems to be because that corresponds to an octave (so they are the same note, but different pitches).
 
 
-Next step in the journey [here.]()
+Next step in the journey [here.](multiclassnn.md)

@@ -46,7 +46,7 @@ for start_note in range(start, end , 1):
         model.add(Dense(num_classes, init='uniform', activation='softmax'))
 
         # compile model
-        model.compile(loss='binary_crossentropy' , optimizer='adam', metrics=['accuracy'])
+        model.compile(loss='categorical_crossentropy' , optimizer='adam', metrics=['accuracy'])
                 
 
         # train the model using the training data

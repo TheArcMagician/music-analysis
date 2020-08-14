@@ -86,5 +86,7 @@ f.close()
 
 
 The following figure shows the average accuracy versus the number of classes compared:
-![figure](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/resultsmulti.png)
+![figure](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/multiclass_results.png)
+
+This shows that the average accuracy decreases with the number of classes being compared. Going from 93% to about 69% from 2 to 12 classes.
 

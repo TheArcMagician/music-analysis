@@ -84,5 +84,6 @@ f.close()
 
 ```
 
-
+The following figure shows the average accuracy versus the number of classes compared:
+![figure](https://raw.githubusercontent.com/shri-k/music-analysis/master/the-journey/images/resultsmulti.png)
 

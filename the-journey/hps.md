@@ -42,4 +42,4 @@ Testing it using the keyboard in GarageBand, it was only able to somewhat identi
 So, HPS clearly is an improvement over peak frequency detection. However, there are still instances where the results are questionable in its current state.
 
 
-Next step in the journey [here.](dictionary.md)
+Next step in the journey [here.](musicnet.md)

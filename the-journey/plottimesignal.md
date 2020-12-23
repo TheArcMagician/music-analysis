@@ -78,7 +78,7 @@ plt.ylabel('audio signal')
 plt.show()
 ```
 Here is the resulting plot:
-![Time Sig](https://github.com/TheArcMagician/music-analysis/blob/master/the-journey/images/timesig.png)
+![Time Sig](https://github.com/shri-k/music-analysis/blob/master/the-journey/images/timesig.png)
 
 
 

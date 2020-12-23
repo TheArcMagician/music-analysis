@@ -7,7 +7,7 @@ The Journey
 
 This blog describes my journey in exploring the connections between music, mathematics, and programming. I used python to write a collection of programs to analyze audio signals, culminating in a neural network that can identify music notes from digital recordings.
 
-Here will be a table of contents to each blog entry
+Here is a table of contents, containing a link to each blog entry
 
 1. [Pyaudio](pyaudio.md)
 2. [Plotting the time signal](plottimesignal.md)
